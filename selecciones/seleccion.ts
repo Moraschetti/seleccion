@@ -3,15 +3,15 @@ import { Masajista } from "./masajista";
 import { Futbolista } from "./futbolista";
 
 export class Seleccion{
-    //private cuerpoTecnico: Tecnico;
-    //private masajista: Masajista;
-    //private futbolista: Futbolista[];
+    //private cuerpoTecnico: Tecnico; 
+    //private masajista: Masajista; 
+    //private futbolista: Futbolista[]; 
     private pais: string;
     private nombre: string;
     private apellido: string;
     private edad: number;
     
-    Constructor(/*tecnicos: Tecnico,masajistas:Masajista,futbolistas:Futbolista[]*/paises:string,nombre:string,apellido:string,edad:number){
+    Constructor(/*tecnicos: Tecnico,masajistas:Masajista,futbolistas:Futbolista[]*/ paises:string,nombre:string,apellido:string,edad:number){
         //this.cuerpoTecnico = tecnicos;
         //this.masajista = masajistas;
         //this.futbolista = futbolistas;
@@ -44,4 +44,5 @@ export class Seleccion{
     setEdad(edad:number){
         this.edad = edad;
     }
+    
 }
