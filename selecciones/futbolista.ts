@@ -1,11 +1,11 @@
-import { Seleccion } from "./seleccion";
+import { Seleccion } from "./seleccion"; 
 
-export class Futbolista extends Seleccion{
+export class Futbolista extends Seleccion{ 
     private posicion: string;
     private club: string;
     private camiseta: number;
     constructor(posicion:string,club:string,camiseta:number,nombre:string,apellido:string,edad:number){
-        super();  
+        super();   
         this.posicion = posicion;
         this.club = club;
         this.camiseta = camiseta;
