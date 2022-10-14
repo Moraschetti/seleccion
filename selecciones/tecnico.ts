@@ -1,10 +1,10 @@
-import { Seleccion } from "./seleccion";
+import { Seleccion } from "./seleccion"; 
 import { Futbolista } from "./futbolista";
 
-export class Tecnico extends Seleccion{
+export class Tecnico extends Seleccion{ 
     private titulo : number;
 
-    constructor(futbolistas:Futbolista[],titulos:number,nombre:string,apellido:string,edad:number){
+    constructor(futbolistas:Futbolista[],titulos:number,nombre:string,apellido:string,edad:number){ 
         super();
         this.titulo = titulos;
        }    
